@@ -86,14 +86,14 @@ export default function Tbox(props) {
           <div className="mb-3">
               <textarea className="form-control" style={{backgroundColor:props.mode === 'light' ? 'white':'rgb(19 29 38)',color:props.mode === 'light' ? '#333333':'white'  }} value= { txt } onChange= { Writer } id="txtbox" rows="8"></textarea>
           </div>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={UPCaseclick}>TO UPPER CASE</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={locaseclick}>to lower case</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Secaseclick}>To sentence case</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Cacaseclick}>To Capitalize Case</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Alcaseclick}>To AlTeRnAtE cAsE</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Rscaseclick}>Remove extra space </button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Copyclick}>Copy text</button>
-          <button disabled={txt.length===0} className="btn btn-dark mx-1" onClick={Clearclick}>Clear all</button>
+          <button className="btn btn-dark mx-1" onClick={UPCaseclick}>TO UPPER CASE</button>
+          <button className="btn btn-dark mx-1" onClick={locaseclick}>to lower case</button>
+          <button className="btn btn-dark mx-1" onClick={Secaseclick}>To sentence case</button>
+          <button className="btn btn-dark mx-1" onClick={Cacaseclick}>To Capitalize Case</button>
+          <button className="btn btn-dark mx-1" onClick={Alcaseclick}>To AlTeRnAtE cAsE</button>
+          <button className="btn btn-dark mx-1" onClick={Rscaseclick}>Remove extra space </button>
+          <button className="btn btn-dark mx-1" onClick={Copyclick}>Copy text</button>
+          <button className="btn btn-dark mx-1" onClick={Clearclick}>Clear all</button>
           <div>
               <h2 className="my-3">
                   Text Summary
