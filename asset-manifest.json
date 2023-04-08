@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TxTrumble/static/css/main.073c9b0a.css",
+    "main.js": "/TxTrumble/static/js/main.fc8c1c91.js",
+    "static/js/787.734c104c.chunk.js": "/TxTrumble/static/js/787.734c104c.chunk.js",
+    "index.html": "/TxTrumble/index.html",
+    "main.073c9b0a.css.map": "/TxTrumble/static/css/main.073c9b0a.css.map",
+    "main.fc8c1c91.js.map": "/TxTrumble/static/js/main.fc8c1c91.js.map",
+    "787.734c104c.chunk.js.map": "/TxTrumble/static/js/787.734c104c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fc8c1c91.js"
+  ]
+}
