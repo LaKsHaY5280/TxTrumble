@@ -46,7 +46,7 @@ export default function Tbox(props) {
             Catxt[i] = Catxt[i].charAt(0).toUpperCase() + Catxt[i].slice(1);
         }
         Catxt = Catxt.join(' ');
-        setxt(Catxt);
+        setxt(Catxt); 
         props.toggleAlert("success"," Text converted To Capitalize Case ");
     }
     const Alcaseclick = () => {
