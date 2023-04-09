@@ -94,13 +94,13 @@ export default function Tbox(props) {
           <button disabled={txt.length===0} className="btn btn-dark mx-1 my-1 " onClick={Rscaseclick}>Remove extra space </button>
           <button disabled={txt.length===0} className="btn btn-dark mx-1 my-1 " onClick={Copyclick}>Copy text</button>
           <button disabled={txt.length===0} className="btn btn-dark mx-1 my-1 " onClick={Clearclick}>Clear all</button>
-          <div>
+          <div> 
               <h2 className="my-3">
                   Text Summary
               </h2>
               <p className="my-2" onChange={Writer}>
                   {txt.split(/\s+/).filter((element)=>{ return element.length !== 0}).length} Words and {txt.length} Characters <br/>
-                  {0.008 * txt.split(" ").length} Minutes to read
+                    {0.008 * txt.split(" ").length} Minutes to read
               </p>
           </div>
           <div>
