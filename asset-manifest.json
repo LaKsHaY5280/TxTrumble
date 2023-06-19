@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TxTrumble/static/css/main.073c9b0a.css",
-    "main.js": "/TxTrumble/static/js/main.812a13be.js",
+    "main.js": "/TxTrumble/static/js/main.7de702e9.js",
     "static/js/787.734c104c.chunk.js": "/TxTrumble/static/js/787.734c104c.chunk.js",
     "index.html": "/TxTrumble/index.html",
     "main.073c9b0a.css.map": "/TxTrumble/static/css/main.073c9b0a.css.map",
-    "main.812a13be.js.map": "/TxTrumble/static/js/main.812a13be.js.map",
+    "main.7de702e9.js.map": "/TxTrumble/static/js/main.7de702e9.js.map",
     "787.734c104c.chunk.js.map": "/TxTrumble/static/js/787.734c104c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.812a13be.js"
+    "static/js/main.7de702e9.js"
   ]
 }
