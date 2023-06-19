@@ -185,10 +185,12 @@ export default function Tbox(props) {
         </p>
       </div>
       <div>
-        <h1>history :</h1>
-        {history.map((item, index) => (
-          <p key={index}>{item}</p>
-        ))}
+        <h2 className="my-3">history:</h2>
+        <p className="my-2">
+          {!history
+            ? history.map((item, index) => <p key={index}>{item}</p>)
+            : "Enter some text in the above area to see the history here..."}
+        </p>
       </div>
     </div>
   );
